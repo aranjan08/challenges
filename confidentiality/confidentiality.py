@@ -16,7 +16,7 @@
 #     
 #         1. Read the ciphertext size (formatted as a little-endian short) from the serial device
 #         2. Read the ciphertext from the serial device
-#         3. Decrypt the ciphertext using the key 26 (rotate each letter by 26)
+#         3. Decrypt the ciphertext using the key 20 (rotate each letter by 20)
 #         4. Send the plaintext back to the device
 #         5. Read the flag from the serial device!
 #     
